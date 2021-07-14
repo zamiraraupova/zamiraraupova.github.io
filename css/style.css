@@ -1,0 +1,138 @@
+
+body
+{
+	background-color: #FFE1E5;
+}
+h2 
+{
+    color: #D9004F;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3
+{
+	color: #76142A;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+p 
+{
+	color: #D9004F;
+	font-style: italic ;
+	position: static;
+	margin-left: 150px;
+}
+ 
+ #list 
+ {text-align: left;}
+
+#favlist
+{ color: #76142A; } 
+
+ul 
+{
+	color: #D9004F;
+	font-style: italic ;
+	position: static;
+	margin-left: 130px;
+}
+
+
+
+input[type=button]
+{
+	color: #D9004F;
+	font-weight: bold;
+	background-color: #F8F9F9;
+	border-radius: 0.5em;
+    
+}
+ 
+ input[type=button]:hover{
+ background-color: #E7E7E7;
+ cursor: pointer;
+
+}
+
+input[type=radio]
+{
+	color: #D9004F;
+	font-weight: bold;
+	background-color: #F8F9F9;
+	border-radius: 0.5em;
+  position: relative;
+  text-align: left;
+}
+
+ input[type=radio]:hover{
+ background-color: #E7E7E7;
+ cursor: pointer;
+ position: relative;
+
+ text-align: inline;
+
+}
+
+form{
+	width: 20%;
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #E1D0D2;
+	color: darkred;
+	font-style: italic;
+	border-style: solid;
+	font-weight: 900px;
+	border-radius: 1em 1em;
+	position: relative;
+	text-align: center;
+	left: 40%;
+   }
+input[type=text]:focus
+{background-color: lightpink;
+color: darkred;
+width: 100%;
+transition: 2s;}
+
+
+
+img {position: relative;
+	left: 15%;
+}
+
+div {position: relative;
+	left: 20%;
+	display: inline-block;
+    width: 200px;
+    height: :100px;
+	}
+
+table 
+{position: relative;
+  left: 25%;
+
+
+}
+td
+
+{color: #D9004F;
+
+}
+
+th
+{color: #76142A; 
+text-align: center;}
+
+
+nav
+{position: absolute;
+left: 30px;
+width: 200px;}
+
+
+
